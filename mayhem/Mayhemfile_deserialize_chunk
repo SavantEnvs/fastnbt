@@ -1,0 +1,6 @@
+project: savantenvs/fastnbt
+target: deserialize-chunk
+
+cmds:
+  - cmd: /mayhem/deserialize_chunk
+    libfuzzer: true

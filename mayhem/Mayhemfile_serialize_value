@@ -1,0 +1,6 @@
+project: savantenvs/fastnbt
+target: serialize-value
+
+cmds:
+  - cmd: /mayhem/serialize_value
+    libfuzzer: true
